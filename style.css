@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1D1D1D;
+    min-height: 100vh;
+    
+  }
+  
+ 
+  nav {
+    display: flex;
+    justify-content: space-between;
+   
+  
+   
+  }
+  
+
+  .logo a {
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 1vw;
+  }
+
+
+ 
+  .menu {
+    display: flex;
+    list-style: none;
+    gap: 10vw;
+   
+   
+  }
+  
+
+  .menu li {
+    margin-left: 1vw;
+    
+   
+  }
+  
+  .menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1vw;
+   padding: 2vw;
+  
+  }
+  
+  .menu li a:hover {
+    color: grey;
+    transition: 0.2s ease;
+  }
+
+
+  .container-droit{
+    display: flex;
+    justify-content: end;
+    padding: 2vw;
+
+  }
+  .header img{
+    width: 40vw;
+    height: auto;
+  }
+
+   .container-gauche{
+    display: flex;
+    float: left;
+    padding: 1vw;
+    transform: translateY(10vw);
+   
+  } 
+
+  .texte h1{
+    color: #fff;
+    font-size: 5vw;
+
+  }
+
+  .texte h2{
+    color: #474DFF;
+    font-size: 1.5vw;
+
+  }
+
+  .texte p{
+    color: #fff;
+    font-size: 0.9vw;
+
+  }
+
+  footer {
+    display: flex;
+    position: absolute;
+    background-color: #0D0D0D;
+    color: #fff;
+    bottom: 0;
+    margin-left: 1%;
+    width: 99%; 
+  }
+
+  .menudroit{
+    display: flex;
+    flex-direction: column;
+    padding: 1vw;
+
+  }
+
+  .menudroit p{
+    text-align: center; 
+    font-weight: bold;
+    font-size: 1vw;
+  }
+
+  .menudroit button{
+    display: flex;
+    flex-direction: column;
+    background-color: #474DFF;
+    font-size: 1vw;
+    border-radius: 5px;
+    margin: 0.3vw;
+    text-align: center;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2vw;
+    text-align: center;
+    
+}
+
+  .menu-gauche p{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.2vw;
+
+  }
+
+  .menu-gauche img {
+    transform: translate(700px);
+    width: 100px;
+    margin: 28px;
+  
+   
+  }
+
